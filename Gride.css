@@ -1,0 +1,19 @@
+#btn{
+    display: inline-block;
+    border: 5px solid black;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+     color: rgb(231, 15, 15);
+   
+     transition: 1s;
+    
+}
+#btn:hover{
+      width: 200px;
+   background-color: aquamarine;
+      color: rgb(0, 0, 0);
+      transform: translateX(299px);
+      transform: translateY(455px);
+}
